@@ -1,0 +1,16 @@
+{
+  "name": "vscode-dev-containers",
+  "version": "0.0.0",
+  "description": "A collection of VS Code dev container definitions for GitHub Codespaces.",
+  "author": "Thilo Maier <git@maier.asia>",
+  "license": "MIT",
+  "scripts": {
+    "prettier": "prettier . --ignore-path .gitignore",
+    "lint": "npm run prettier -- --check",
+    "format": "yarn run prettier -- --write"
+  },
+  "devDependencies": {
+    "@maiertech/prettier-config": "0.2.1",
+    "prettier": "2.1.2"
+  }
+}
