@@ -10,6 +10,6 @@
     "terminal.integrated.shell.linux": "/bin/bash"
   },
   // These extensions need to be duplicated in .vscode/extensions.json.
-  "extensions": ["prettier.prettier-vscode"],
+  "extensions": ["esbenp.prettier-vscode"],
   "postCreateCommand": "npm install"
 }
