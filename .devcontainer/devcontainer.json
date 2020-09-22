@@ -1,0 +1,15 @@
+{
+  "name": "Node.js",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "args": {
+      "VARIANT": "12"
+    }
+  },
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  // These extensions need to be duplicated in .vscode/extensions.json.
+  "extensions": ["prettier.prettier-vscode"],
+  "postCreateCommand": "npm install"
+}
