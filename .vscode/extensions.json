@@ -1,4 +1,4 @@
 {
   // These extensions need to be duplicated in .devcontainer/devcontainer.json.
-  "recommendations": ["dbaeumer.vscode-eslint", "prettier.prettier-vscode"]
+  "recommendations": ["prettier.prettier-vscode"]
 }
