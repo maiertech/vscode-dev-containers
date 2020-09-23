@@ -1,5 +1,5 @@
 {
-  "name": "node-npm",
+  "name": "node-yarn",
   "build": {
     "dockerfile": "Dockerfile",
     "args": {
@@ -11,5 +11,5 @@
     "terminal.integrated.shell.linux": "/bin/bash"
   },
   "extensions": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode"],
-  "postCreateCommand": "npm install"
+  "postCreateCommand": "yarn install"
 }

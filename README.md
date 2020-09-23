@@ -17,6 +17,8 @@ for each configuration in the future.
 
 These are the available configs:
 
-| Config                                                                                   | Description                                              |
-| :--------------------------------------------------------------------------------------- | :------------------------------------------------------- |
-| [`gatsby`](https://github.com/454de6e/vscode-dev-containers/tree/main/containers/gatsby) | Config for [Gatsby](https://www.gatsbyjs.com/) projects. |
+| Config                                                                                         | Description                                                                  |
+| :--------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------- |
+| [`gatsby`](https://github.com/454de6e/vscode-dev-containers/tree/main/containers/gatsby)       | Config for [Gatsby](https://www.gatsbyjs.com/) projects.                     |
+| [`node-npm`](https://github.com/454de6e/vscode-dev-containers/tree/main/containers/node-npm)   | Config for [Node](https://nodejs.org/en/) with NPM.                          |
+| [`node-yarn`](https://github.com/454de6e/vscode-dev-containers/tree/main/containers/node-yarn) | Config for [Node](https://nodejs.org/en/) with [Yarn](https://yarnpkg.com/). |
