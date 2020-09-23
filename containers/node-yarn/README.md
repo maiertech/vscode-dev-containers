@@ -1,4 +1,4 @@
-# `node-npm` config
+# `node-yarn` config
 
 ## build
 
@@ -9,9 +9,9 @@
 ## settings
 
 - Remote settings:
-  [`.devcontainer/devcontainer.json`](https://github.com/454de6e/vscode-dev-containers/blob/main/containers/node-npm/.devcontainer/devcontainer.json)
+  [`.devcontainer/devcontainer.json`](https://github.com/454de6e/vscode-dev-containers/blob/main/containers/node-yarn/.devcontainer/devcontainer.json)
 - Workspace settings:
-  [`.vscode/settings.json`](https://github.com/454de6e/vscode-dev-containers/blob/main/containers/node-npm/.vscode/settings.json)
+  [`.vscode/settings.json`](https://github.com/454de6e/vscode-dev-containers/blob/main/containers/node-yarn/.vscode/settings.json)
 
 ## extensions
 
@@ -20,4 +20,4 @@
 
 ## postCreateCommand
 
-`npm install`
+`yarn install`
