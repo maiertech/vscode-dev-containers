@@ -1,5 +1,5 @@
 {
-  "name": "gatsby",
+  "name": "node-npm",
   "build": {
     "dockerfile": "Dockerfile",
     "args": {
@@ -10,10 +10,7 @@
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
   },
+  // Extensions need to be duplicated in .vscode/extensions.json.
   "extensions": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode"],
-  "forwardPorts": [8000],
-  "postCreateCommand": "yarn install",
-  "remoteEnv": {
-    "GATSBY_TELEMETRY_DISABLED": "1"
-  }
+  "postCreateCommand": "npm install"
 }
