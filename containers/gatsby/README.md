@@ -26,6 +26,6 @@
 
 `yarn install`
 
-## remoteEnv
+## containerEnv
 
 `GATSBY_TELEMETRY_DISABLED=1`
