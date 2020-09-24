@@ -11,5 +11,6 @@
   },
   // These extensions need to be duplicated in .vscode/extensions.json.
   "extensions": ["esbenp.prettier-vscode"],
-  "postCreateCommand": "npm install"
+  "postCreateCommand": "npm install",
+  "remoteUser": "node"
 }

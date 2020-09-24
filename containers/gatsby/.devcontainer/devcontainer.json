@@ -15,5 +15,6 @@
   "postCreateCommand": "yarn install",
   "containerEnv": {
     "GATSBY_TELEMETRY_DISABLED": "1"
-  }
+  },
+  "remoteUser": "node"
 }
