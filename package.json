@@ -10,7 +10,7 @@
     "format": "yarn run prettier -- --write"
   },
   "devDependencies": {
-    "@maiertech/prettier-config": "0.2.1",
+    "@maiertech/prettier-config": "0.3.0",
     "prettier": "2.1.2"
   }
 }
